@@ -1,0 +1,190 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+} 
+
+
+.Container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: 'Montserrat-Black 900', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Navbar CSS */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-size: "Montserrat-Light";
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* below is added for title-image  */
+.col-lg-6{
+    position:relative;
+}
+
+/* Tittle image */
+
+.title-image {
+    margin: 1.5rem 3rem;
+    transform: rotate(20deg);
+    width: 60%;
+    position: absolute;
+}
+
+/* Features-section */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.features-box {
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+/* Padding added to keep buttons outside in corousel */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+/* Press-section */
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 10px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* to make website responsive for small devices using media query */
+
+@media (max-width: 1150px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0);
+        position: static;
+        margin: auto;
+    }
+    
+}
+
+/* call to action */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.call {
+  font-size: 3.5rem;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+    height: 100px;
+    padding: 50px auto 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+#footer i {
+    padding: 15px;
+    margin-top: 30px;
+    
+}
+
+#footer i:hover {
+    color: #ef8172;
+}
